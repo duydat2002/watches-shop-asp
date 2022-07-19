@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <Id>1</Id>
+    <Name>Suunto Spartan Trainer Wrist HR</Name>
+    <Price>235.95</Price>
+    <Discount>20</Discount>
+    <Desc>The Suunto Spartan Trainer is a GPS watch with sophisticated design and the ability to fit all wrist sizes, ready to accompany you on every training journey - from swimming, cycling, gym to running. . The feature is comfortable with a heart rate sensor, activity tracking including calories and steps 24/7.</Desc>
+    <Alts>suunto-spartan-trainer-wrist-hr-black-techwear-1.png,suunto-spartan-trainer-wrist-hr-black-techwear-2.png,suunto-spartan-trainer-wrist-hr-black-techwear-3.png,suunto-spartan-trainer-wrist-hr-black-techwear-4.png</Alts>
+    <Size>40</Size>
+    <Color>Black</Color>
+    <Stars>4.5</Stars>
+    <Type>Sport, Men, New</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>2</Id>
+    <Name>Suunto 9 Baro &amp; Peak</Name>
+    <Price>583.54</Price>
+    <Discount>10</Discount>
+    <Desc>Designed for the peak experiences that sport makes you feel, for the adventures that stay with you forever. The Suunto 9 Peak is the thinnest, smallest and toughest watch Suunto has ever made.</Desc>
+    <Alts>suunto-9-peak-granite-blue-titanium-1.png,suunto-9-peak-granite-blue-titanium-2.png,suunto-9-peak-granite-blue-titanium-3.png,suunto-9-peak-granite-blue-titanium-4.png,suunto-9-peak-granite-blue-titanium-5.png,suunto-9-peak-granite-blue-titanium-6.png</Alts>
+    <Size>43</Size>
+    <Color>Blue</Color>
+    <Stars>5</Stars>
+    <Type>Sport, Men, New</Type>
+    <Qty>50</Qty>
+  </Product>
+  <Product>
+    <Id>3</Id>
+    <Name>Archetype Nemesis Automatic Gunmetal Gray</Name>
+    <Price>400</Price>
+    <Discount>5</Discount>
+    <Desc>A self-winding mechanical watch with custom see-through skeleton dial and hands. Individually numbered to 500 pieces.</Desc>
+    <Alts>archetype-nemesis-automatic-1.png,archetype-nemesis-automatic-2.png,archetype-nemesis-automatic-3.png,archetype-nemesis-automatic-4.png</Alts>
+    <Size>43</Size>
+    <Color>Black</Color>
+    <Stars>4</Stars>
+    <Type>Luxury, Men, Women</Type>
+    <Qty>50</Qty>
+  </Product>
+  <Product>
+    <Id>4</Id>
+    <Name>Devon Tread 1E</Name>
+    <Price>19975.67</Price>
+    <Discount>5</Discount>
+    <Desc>Devon's movement is a mesmerizing display of patented interwoven time belts that displays hours, minutes, and seconds in a way that's never been dreamed of before. These watches are wholly developed and manufactured in the U.S., thereby capturing the unique character of the American dream.</Desc>
+    <Alts>devon-tread-1E-1.png,devon-tread-1E-2.png,devon-tread-1E-3.png,devon-tread-1E-4.png</Alts>
+    <Size>40</Size>
+    <Color>Black</Color>
+    <Stars>5</Stars>
+    <Type>Luxury, Men, New</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>5</Id>
+    <Name>Ticwatch E3</Name>
+    <Price>170</Price>
+    <Discount>20</Discount>
+    <Desc>Ticwatch E3 owns the most powerful processor chip, Qualcomm Snapdragon Wear 4100 for faster, smoother performance and less battery consumption. Make your E3 experience perfect.</Desc>
+    <Alts>tickwatch-e3-1.png,tickwatch-e3-2.png,tickwatch-e3-3.png,tickwatch-e3-4.png,tickwatch-e3-5.png,tickwatch-e3-6.png</Alts>
+    <Size>43</Size>
+    <Color>Black</Color>
+    <Stars>4.5</Stars>
+    <Type>Sport, Men, New</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>6</Id>
+    <Name>Ticwatch Pro 3</Name>
+    <Price>242</Price>
+    <Discount>10</Discount>
+    <Desc>TicFaster and smoother than ever with the most modern Qualcomm® Snapdragon Wear™ 4100 processor. TicWatch Pro 3 GPS promises faster and higher performance and better battery life.watch</Desc>
+    <Alts>tickwatch-pro-3-1.png,tickwatch-pro-3-2.png,tickwatch-pro-3-3.png,tickwatch-pro-3-4.png,tickwatch-pro-3-5.png</Alts>
+    <Size>39</Size>
+    <Color>Black</Color>
+    <Stars>5</Stars>
+    <Type>Sport, New</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>7</Id>
+    <Name>G-Shock GA2100 Carbon Core Guard Ana-Digi Red Out</Name>
+    <Price>99</Price>
+    <Discount>0</Discount>
+    <Desc>High-strength resin material, which is reinforced with carbon fibers, makes it possible to create a case that is a mere 11.8 mm thin, which is the thinnest among G-SHOCK combination models.Neobrite: Only for GA-2100-1A, GA-2100-4A</Desc>
+    <Alts>gshock-ga2100-carbon-core-guard-anadigi-red-out-1.png,gshock-ga2100-carbon-core-guard-anadigi-red-out-2.png,gshock-ga2100-carbon-core-guard-anadigi-red-out-3.png,gshock-ga2100-carbon-core-guard-anadigi-red-out-4.png</Alts>
+    <Size>40</Size>
+    <Color>Red</Color>
+    <Stars>4.5</Stars>
+    <Type>Sport, Special</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>8</Id>
+    <Name>California Watch Co. Mavericks Chrono SS Navy Red</Name>
+    <Price>400</Price>
+    <Discount>30</Discount>
+    <Desc>Mavericks is home to the biggest, most powerful wave on the west coast. The Mavericks Collection defines tough, with bold numerals, a unidirectional rotating bezel and a 60 minute chronograph. The watch is water resistant to 10 ATM, and features lume hands that make it ultra-legible whether you're out at night or doing a deep dive.</Desc>
+    <Alts>california-watch-co-mavericks-chrono-ss-navy-red-1.png,california-watch-co-mavericks-chrono-ss-navy-red-2.png,california-watch-co-mavericks-chrono-ss-navy-red-3.png,california-watch-co-mavericks-chrono-ss-navy-red-4.png,california-watch-co-mavericks-chrono-ss-navy-red-5.png,california-watch-co-mavericks-chrono-ss-navy-red-6</Alts>
+    <Size>45</Size>
+    <Color>Blue</Color>
+    <Stars>4.38</Stars>
+    <Type>Men, Special</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>9</Id>
+    <Name>The Electricianz S.NOW Gold White</Name>
+    <Price>250</Price>
+    <Discount>25</Discount>
+    <Desc>The S.NOW stands out of the “Electric Code” collection with its bright white case and golden-rose details. Sporty and fashionable, the watch hints of space exploration, drawing inspiration from science fiction and high-end fashion. It adds an undeniable glow to the Electricianz's steampunk vibe.</Desc>
+    <Alts>the-electricianz-s.now-gold-white-1.png,the-electricianz-s.now-gold-white-2.png,the-electricianz-s.now-gold-white-3.png,the-electricianz-s.now-gold-white-4.png,the-electricianz-s.now-gold-white-5.png</Alts>
+    <Size>43</Size>
+    <Color>White</Color>
+    <Stars>4</Stars>
+    <Type>Men, Special</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>10</Id>
+    <Name>Thomas Earnshaw Longcase Automatic Rose Gold Brown</Name>
+    <Price>190</Price>
+    <Discount>40</Discount>
+    <Desc>In the spirit of clock making, utter precision and care form the backbone of the Longcase collection. Handcrafted individually, using hundreds of pieces to come together in a perfect mechanical congruency.</Desc>
+    <Alts>thomas-earnshaw-longcase-automatic-rose-gold-brown-1.png,thomas-earnshaw-longcase-automatic-rose-gold-brown-2.png,thomas-earnshaw-longcase-automatic-rose-gold-brown-3.png,thomas-earnshaw-longcase-automatic-rose-gold-brown-4.png,thomas-earnshaw-longcase-automatic-rose-gold-brown-5.png,thomas-earnshaw-longcase-automatic-rose-gold-brown-6.png</Alts>
+    <Size>43</Size>
+    <Color>Brown</Color>
+    <Stars>5</Stars>
+    <Type>Men</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>11</Id>
+    <Name>UNDONE Batman Chronograph Caped Crusader Special Edition</Name>
+    <Price>399</Price>
+    <Discount>20</Discount>
+    <Desc>Housed in Grade II Titanium, the cushion-case, crown and pushers are light weight, agile and highly corrosion resistant. With a micro-blasted finish for ultimate stealth and aggressive shoulder lines reminiscent of the Batmobile, the Caped Crusader watch brings Batman's fierce demeanor to your wrist.</Desc>
+    <Alts>undone-batman-chronograph-caped-crusader-special-edition-1.png,undone-batman-chronograph-caped-crusader-special-edition-2.png,undone-batman-chronograph-caped-crusader-special-edition-3.png,undone-batman-chronograph-caped-crusader-special-edition-4.png,undone-batman-chronograph-caped-crusader-special-edition-5.png,undone-batman-chronograph-caped-crusader-special-edition-6.png</Alts>
+    <Size>40</Size>
+    <Color>Black</Color>
+    <Stars>4.5</Stars>
+    <Type>Men</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>12</Id>
+    <Name>Xeric Halograph II Automatic Green Brown Limited Edition</Name>
+    <Price>499</Price>
+    <Discount>20</Discount>
+    <Desc>The straps are made using premium, full-grain leather from Horween, one of the oldest continuously running tanneries in the United States. The straps also feature a quick change springbar system allowing you to swap out different straps for every occasion.</Desc>
+    <Alts>xeric-halograph-ii-automatic-green-brown-limited-edition-1.png,xeric-halograph-ii-automatic-green-brown-limited-edition-2.png,xeric-halograph-ii-automatic-green-brown-limited-edition-3.png,xeric-halograph-ii-automatic-green-brown-limited-edition-4.png,xeric-halograph-ii-automatic-green-brown-limited-edition-5.png</Alts>
+    <Size>40</Size>
+    <Color>Green</Color>
+    <Stars>4</Stars>
+    <Type>Men, New</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>13</Id>
+    <Name>Nsquare Snake Queen Automatic 39mm Cherry Pink</Name>
+    <Price>630</Price>
+    <Discount>10</Discount>
+    <Desc>The 39mm SnakeQueen is colorful, with different color dials and different cases. The figure is petite but the connotation is not to be humble.</Desc>
+    <Alts>nsquare-snake-queen-automatic-39mm-cherry-pink-1.png,nsquare-snake-queen-automatic-39mm-cherry-pink-3.png,nsquare-snake-queen-automatic-39mm-cherry-pink-2.png,nsquare-snake-queen-automatic-39mm-cherry-pink-4.png,nsquare-snake-queen-automatic-39mm-cherry-pink-5.png</Alts>
+    <Size>39</Size>
+    <Color>Pink</Color>
+    <Stars>4.2</Stars>
+    <Type>Women</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>14</Id>
+    <Name>Nsquare Snake Queen Automatic 39mm Purple</Name>
+    <Price>630</Price>
+    <Discount>10</Discount>
+    <Desc>The size of the watch is as noble as the style and adds a feminine charm. The 39mm SnakeQueen is colorful, with different color dials and different cases. The figure is petite but the connotation is not to be humble.</Desc>
+    <Alts>nsquare-snake-queen-automatic-39mm-purple-1.png,nsquare-snake-queen-automatic-39mm-purple-2.png,nsquare-snake-queen-automatic-39mm-purple-3.png,nsquare-snake-queen-automatic-39mm-purple-4.png</Alts>
+    <Size>39</Size>
+    <Color>Purple</Color>
+    <Stars>4.2</Stars>
+    <Type>Women</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>15</Id>
+    <Name>Timex Midtown 36mm Silver SS</Name>
+    <Price>119</Price>
+    <Discount>5</Discount>
+    <Desc>A unique, silver, concave dial with a brushed finish adds a layer of depth to this tasteful timepiece, while a stainless-steel mesh band; stainless-steel case; and simple, cut-out markers punctuated with crystals offer a touch of delicacy. </Desc>
+    <Alts>timex-midtown-36mm-silver-ss-1.png,timex-midtown-36mm-silver-ss-2.png,timex-midtown-36mm-silver-ss-3.png,timex-midtown-36mm-silver-ss-4.png,timex-midtown-36mm-silver-ss-5.png</Alts>
+    <Size>36</Size>
+    <Color>Sliver</Color>
+    <Stars>3</Stars>
+    <Type>Women, Special</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>16</Id>
+    <Name>Timex Midtown 36mm gold SS</Name>
+    <Price>189</Price>
+    <Discount>15</Discount>
+    <Desc>Timex stayed true the original details - including a gold-tone rotating bezel, functional battery hatch and domed acrylic crystal. The 36mm gold-tone stainless-steel case is paired with a cream dial and a comfortable woven gold-tone stainless-steel strap, easily adjustable for a look and fit you'll love.</Desc>
+    <Alts>timex-midtown-36mm-gold-ss-1.png,timex-midtown-36mm-gold-ss-2.png,timex-midtown-36mm-gold-ss-3.png,timex-midtown-36mm-gold-ss-4.png,timex-midtown-36mm-gold-ss-5.png</Alts>
+    <Size>36</Size>
+    <Color>Gold</Color>
+    <Stars>3.5</Stars>
+    <Type>Women, New</Type>
+    <Qty>100</Qty>
+  </Product>
+  <Product>
+    <Id>19</Id>
+    <Name>dfhdfh</Name>
+    <Price>235.95</Price>
+    <Discount>20</Discount>
+    <Desc>The Suunto Spartan Trainer is a GPS watch with sophisticated design and the ability to fit all wrist sizes, ready to accompany you on every training journey - from swimming, cycling, gym to running. . The feature is comfortable with a heart rate sensor, activity tracking including calories and steps 24/7.</Desc>
+    <Alts>archetype-nemesis-automatic-1.png,archetype-nemesis-automatic-2.png,archetype-nemesis-automatic-3.png,archetype-nemesis-automatic-4.png</Alts>
+    <Size>40</Size>
+    <Color>Sliver</Color>
+    <Stars>4.5</Stars>
+    <Type>New, Sport, Women</Type>
+    <Qty>100</Qty>
+  </Product>
+</ArrayOfProduct>

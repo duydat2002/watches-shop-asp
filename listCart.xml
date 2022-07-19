@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ArrayOfCart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cart>
+    <IdUser>3</IdUser>
+    <IdProduct>3</IdProduct>
+    <Quantity>3</Quantity>
+  </Cart>
+  <Cart>
+    <IdUser>4</IdUser>
+    <IdProduct>5</IdProduct>
+    <Quantity>1</Quantity>
+  </Cart>
+  <Cart>
+    <IdUser>5</IdUser>
+    <IdProduct>2</IdProduct>
+    <Quantity>1</Quantity>
+  </Cart>
+  <Cart>
+    <IdUser>3</IdUser>
+    <IdProduct>15</IdProduct>
+    <Quantity>2</Quantity>
+  </Cart>
+  <Cart>
+    <IdUser>1</IdUser>
+    <IdProduct>1</IdProduct>
+    <Quantity>2</Quantity>
+  </Cart>
+</ArrayOfCart>

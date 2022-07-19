@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfContact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contact>
+    <IdUser>2</IdUser>
+    <OrderNumber>1</OrderNumber>
+    <PhoneNumber>0333140642</PhoneNumber>
+    <Address>Hà Giang</Address>
+    <IsDefault>true</IsDefault>
+  </Contact>
+  <Contact>
+    <IdUser>2</IdUser>
+    <OrderNumber>2</OrderNumber>
+    <PhoneNumber>0333140642</PhoneNumber>
+    <Address>Hà Nội</Address>
+    <IsDefault>false</IsDefault>
+  </Contact>
+  <Contact>
+    <IdUser>5</IdUser>
+    <OrderNumber>1</OrderNumber>
+    <PhoneNumber>0987654321</PhoneNumber>
+    <Address>64 Tương Mai/ Đồng Tâm/ Hai bà Trưng/ Hà Nội</Address>
+    <IsDefault>true</IsDefault>
+  </Contact>
+  <Contact>
+    <IdUser>5</IdUser>
+    <OrderNumber>2</OrderNumber>
+    <PhoneNumber>0987654321</PhoneNumber>
+    <Address>Tân Thành/ Bắc Quang/ Hà Giang</Address>
+    <IsDefault>false</IsDefault>
+  </Contact>
+</ArrayOfContact>

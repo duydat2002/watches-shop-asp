@@ -1,0 +1,399 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D4924ECF-D1AD-4821-8AD7-8EC5781FCF00}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BTL1</RootNamespace>
+    <AssemblyName>BTL1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.CodeDom, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.CodeDom.6.0.0\lib\net461\System.CodeDom.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account.aspx" />
+    <Content Include="assets\css\account.css" />
+    <Content Include="assets\css\cart.css" />
+    <Content Include="assets\css\detailProduct.css" />
+    <Content Include="assets\css\font.css" />
+    <Content Include="assets\css\fontawesome.all.min.css" />
+    <Content Include="assets\css\home.css" />
+    <Content Include="assets\css\manage.css" />
+    <Content Include="assets\css\products.css" />
+    <Content Include="assets\css\swiper-bundle.min.css" />
+    <Content Include="assets\font\OFL.txt" />
+    <Content Include="assets\font\poppins-v19-latin-100.svg" />
+    <Content Include="assets\font\poppins-v19-latin-100italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-200.svg" />
+    <Content Include="assets\font\poppins-v19-latin-200italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-300.svg" />
+    <Content Include="assets\font\poppins-v19-latin-300italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-500.svg" />
+    <Content Include="assets\font\poppins-v19-latin-500italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-600.svg" />
+    <Content Include="assets\font\poppins-v19-latin-600italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-700.svg" />
+    <Content Include="assets\font\poppins-v19-latin-700italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-800.svg" />
+    <Content Include="assets\font\poppins-v19-latin-800italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-900.svg" />
+    <Content Include="assets\font\poppins-v19-latin-900italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-italic.svg" />
+    <Content Include="assets\font\poppins-v19-latin-regular.svg" />
+    <Content Include="assets\image\american_express.png" />
+    <Content Include="assets\image\archetype-nemesis-automatic-1.png" />
+    <Content Include="assets\image\archetype-nemesis-automatic-2.png" />
+    <Content Include="assets\image\Banner-1.png" />
+    <Content Include="assets\image\Banner-2.png" />
+    <Content Include="assets\image\Banner-3.png" />
+    <Content Include="assets\image\Banner-4.png" />
+    <Content Include="assets\image\banner-products.png" />
+    <Content Include="assets\image\Brand-1.png" />
+    <Content Include="assets\image\Brand-2.png" />
+    <Content Include="assets\image\Brand-3.png" />
+    <Content Include="assets\image\Brand-4.png" />
+    <Content Include="assets\image\Brand-5.png" />
+    <Content Include="assets\image\Brand-6.png" />
+    <Content Include="assets\image\Brand-7.png" />
+    <Content Include="assets\image\Cart-empty.png" />
+    <Content Include="assets\image\Categories-1.png" />
+    <Content Include="assets\image\Categories-2.png" />
+    <Content Include="assets\image\Categories-3.png" />
+    <Content Include="assets\image\Categories-4.png" />
+    <Content Include="assets\image\devon-tread-1E-1.png" />
+    <Content Include="assets\image\devon-tread-1E-2.png" />
+    <Content Include="assets\image\left-banner-1.png" />
+    <Content Include="assets\image\Logo.png" />
+    <Content Include="assets\image\master_card.png" />
+    <Content Include="assets\image\Service-icon.png" />
+    <Content Include="assets\image\Slider-1.png" />
+    <Content Include="assets\image\Slider-2.png" />
+    <Content Include="assets\image\suunto-9-peak-granite-blue-titanium-1.png" />
+    <Content Include="assets\image\suunto-9-peak-granite-blue-titanium-2.png" />
+    <Content Include="assets\image\suunto-9-peak-granite-blue-titanium-3.png" />
+    <Content Include="assets\image\suunto-9-peak-granite-blue-titanium-4.png" />
+    <Content Include="assets\image\suunto-9-peak-granite-blue-titanium-5.png" />
+    <Content Include="assets\image\suunto-9-peak-granite-blue-titanium-6.png" />
+    <Content Include="assets\image\suunto-spartan-trainer-wrist-hr-black-techwear-1.png" />
+    <Content Include="assets\image\suunto-spartan-trainer-wrist-hr-black-techwear-2.png" />
+    <Content Include="assets\image\visa.png" />
+    <Content Include="assets\image\western_union.png" />
+    <Content Include="assets\image\world_pay.png" />
+    <Content Include="assets\javascript\account.js" />
+    <Content Include="assets\javascript\cart.js" />
+    <Content Include="assets\javascript\detailProduct.js" />
+    <Content Include="assets\javascript\main.js" />
+    <Content Include="assets\javascript\productManagement.js" />
+    <Content Include="assets\javascript\products.js" />
+    <Content Include="assets\javascript\swiper-bundle.min.js" />
+    <Content Include="assets\webfonts\fa-brands-400.svg" />
+    <Content Include="assets\webfonts\fa-regular-400.svg" />
+    <Content Include="assets\webfonts\fa-solid-900.svg" />
+    <Content Include="Cart.aspx" />
+    <Content Include="DetailProduct.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="ProductManagement.aspx" />
+    <Content Include="Products.aspx" />
+    <Content Include="SignIn.aspx" />
+    <Content Include="SignOut.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.aspx.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account.aspx.designer.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs" />
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.cs" />
+    <Compile Include="DetailProduct.aspx.cs">
+      <DependentUpon>DetailProduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetailProduct.aspx.designer.cs">
+      <DependentUpon>DetailProduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Layout.Master.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout.Master.designer.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductManagement.aspx.cs">
+      <DependentUpon>ProductManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductManagement.aspx.designer.cs">
+      <DependentUpon>ProductManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.aspx.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignIn.aspx.designer.cs">
+      <DependentUpon>SignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignOut.aspx.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignOut.aspx.designer.cs">
+      <DependentUpon>SignOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Layout.Master" />
+    <Content Include="assets\webfonts\fa-brands-400.eot" />
+    <Content Include="assets\webfonts\fa-brands-400.ttf" />
+    <Content Include="assets\webfonts\fa-brands-400.woff" />
+    <Content Include="assets\webfonts\fa-brands-400.woff2" />
+    <Content Include="assets\webfonts\fa-regular-400.eot" />
+    <Content Include="assets\webfonts\fa-regular-400.ttf" />
+    <Content Include="assets\webfonts\fa-regular-400.woff" />
+    <Content Include="assets\webfonts\fa-regular-400.woff2" />
+    <Content Include="assets\webfonts\fa-solid-900.eot" />
+    <Content Include="assets\webfonts\fa-solid-900.ttf" />
+    <Content Include="assets\webfonts\fa-solid-900.woff" />
+    <Content Include="assets\webfonts\fa-solid-900.woff2" />
+    <Content Include="assets\font\Poppins-Black.ttf" />
+    <Content Include="assets\font\Poppins-BlackItalic.ttf" />
+    <Content Include="assets\font\Poppins-Bold.ttf" />
+    <Content Include="assets\font\Poppins-BoldItalic.ttf" />
+    <Content Include="assets\font\Poppins-ExtraBold.ttf" />
+    <Content Include="assets\font\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="assets\font\Poppins-ExtraLight.ttf" />
+    <Content Include="assets\font\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="assets\font\Poppins-Italic.ttf" />
+    <Content Include="assets\font\Poppins-Light.ttf" />
+    <Content Include="assets\font\Poppins-LightItalic.ttf" />
+    <Content Include="assets\font\Poppins-Medium.ttf" />
+    <Content Include="assets\font\Poppins-MediumItalic.ttf" />
+    <Content Include="assets\font\Poppins-Regular.ttf" />
+    <Content Include="assets\font\Poppins-SemiBold.ttf" />
+    <Content Include="assets\font\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="assets\font\Poppins-Thin.ttf" />
+    <Content Include="assets\font\Poppins-ThinItalic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-100.eot" />
+    <Content Include="assets\font\poppins-v19-latin-100.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-100.woff" />
+    <Content Include="assets\font\poppins-v19-latin-100.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-100italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-100italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-100italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-100italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-200.eot" />
+    <Content Include="assets\font\poppins-v19-latin-200.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-200.woff" />
+    <Content Include="assets\font\poppins-v19-latin-200.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-200italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-200italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-200italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-200italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-300.eot" />
+    <Content Include="assets\font\poppins-v19-latin-300.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-300.woff" />
+    <Content Include="assets\font\poppins-v19-latin-300.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-300italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-300italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-300italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-300italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-500.eot" />
+    <Content Include="assets\font\poppins-v19-latin-500.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-500.woff" />
+    <Content Include="assets\font\poppins-v19-latin-500.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-500italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-500italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-500italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-500italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-600.eot" />
+    <Content Include="assets\font\poppins-v19-latin-600.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-600.woff" />
+    <Content Include="assets\font\poppins-v19-latin-600.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-600italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-600italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-600italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-600italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-700.eot" />
+    <Content Include="assets\font\poppins-v19-latin-700.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-700.woff" />
+    <Content Include="assets\font\poppins-v19-latin-700.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-700italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-700italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-700italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-700italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-800.eot" />
+    <Content Include="assets\font\poppins-v19-latin-800.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-800.woff" />
+    <Content Include="assets\font\poppins-v19-latin-800.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-800italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-800italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-800italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-800italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-900.eot" />
+    <Content Include="assets\font\poppins-v19-latin-900.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-900.woff" />
+    <Content Include="assets\font\poppins-v19-latin-900.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-900italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-900italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-900italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-900italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-italic.eot" />
+    <Content Include="assets\font\poppins-v19-latin-italic.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-italic.woff" />
+    <Content Include="assets\font\poppins-v19-latin-italic.woff2" />
+    <Content Include="assets\font\poppins-v19-latin-regular.eot" />
+    <Content Include="assets\font\poppins-v19-latin-regular.ttf" />
+    <Content Include="assets\font\poppins-v19-latin-regular.woff" />
+    <Content Include="assets\font\poppins-v19-latin-regular.woff2" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53796</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53796/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
